@@ -1,0 +1,10 @@
+DS18B20Test
+Null
+*.hex
+*.csv
+*.txt
+.com.*
+docs
+examples
+_DelSyncFiles
+OneWire
