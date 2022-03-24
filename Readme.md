@@ -2,7 +2,7 @@
 
 This project  is used to monitor multiple temperature sensors and report out of range conditions to your cell phone via SMS.
 
-A more detailed description of the project will be part of a soon to be published Instructable.
+A more detailed description of the project is available  [here](https://www.instructables.com/LTE-4G-Sensor-Using-a-SIM7000/).
 
 The code is driving a SIM7000 CAT-M1 Multi-Band LTE module asynchronously.  Most of the SIMxxxx classes I've seen block when communicating with the module causing the UI to lockup until the code returns.  In addition, this code is designed to send and receive SMS texts using PDU rather than text mode.  Using PDU mode allows access to the sender's MDN and the SMSC used.
 
@@ -15,3 +15,4 @@ This project uses the OneWire library available [here](https://github.com/PaulSt
 
 # Sensor Board
 ![Image](LTE4GSensorBoard.jpg)
+
